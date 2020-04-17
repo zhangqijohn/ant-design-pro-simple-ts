@@ -1,0 +1,7 @@
+/* table 组件空单元格自动填充占位符‘–’*/
+.ant-table-tbody > tr > td:empty:before {
+  content: '-';
+}
+.ant-table-tbody > tr > td *:empty:before {
+  content: '-';
+}
